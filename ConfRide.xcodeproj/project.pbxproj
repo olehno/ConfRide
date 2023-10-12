@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		1AF880D12AD8AEA3001B0E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880D02AD8AEA3001B0E89 /* AppDelegate.swift */; };
-		1AF880D32AD8AEA3001B0E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880D22AD8AEA3001B0E89 /* SceneDelegate.swift */; };
-		1AF880D52AD8AEA3001B0E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880D42AD8AEA3001B0E89 /* ViewController.swift */; };
 		1AF880D82AD8AEA3001B0E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF880D62AD8AEA3001B0E89 /* Main.storyboard */; };
 		1AF880DB2AD8AEA3001B0E89 /* ConfRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880D92AD8AEA3001B0E89 /* ConfRide.xcdatamodeld */; };
 		1AF880DD2AD8AEA5001B0E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF880DC2AD8AEA5001B0E89 /* Assets.xcassets */; };
 		1AF880E02AD8AEA5001B0E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF880DE2AD8AEA5001B0E89 /* LaunchScreen.storyboard */; };
+		1AF880F22AD8AEBF001B0E89 /* CarInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880EA2AD8AEBF001B0E89 /* CarInsuranceViewController.swift */; };
+		1AF880F32AD8AEBF001B0E89 /* RepairsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880EB2AD8AEBF001B0E89 /* RepairsViewController.swift */; };
+		1AF880F42AD8AEBF001B0E89 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880EC2AD8AEBF001B0E89 /* CarInfoViewController.swift */; };
+		1AF880F52AD8AEBF001B0E89 /* CarCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880ED2AD8AEBF001B0E89 /* CarCrashesViewController.swift */; };
+		1AF880F92AD8AEE9001B0E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880F82AD8AEE9001B0E89 /* SceneDelegate.swift */; };
+		1AF880FB2AD8AEEE001B0E89 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF880FA2AD8AEEE001B0E89 /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AF880CD2AD8AEA3001B0E89 /* ConfRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF880D02AD8AEA3001B0E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AF880D22AD8AEA3001B0E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AF880D42AD8AEA3001B0E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AF880D72AD8AEA3001B0E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AF880DA2AD8AEA3001B0E89 /* ConfRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConfRide.xcdatamodel; sourceTree = "<group>"; };
 		1AF880DC2AD8AEA5001B0E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF880DF2AD8AEA5001B0E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF880E12AD8AEA5001B0E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF880EA2AD8AEBF001B0E89 /* CarInsuranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInsuranceViewController.swift; sourceTree = "<group>"; };
+		1AF880EB2AD8AEBF001B0E89 /* RepairsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepairsViewController.swift; sourceTree = "<group>"; };
+		1AF880EC2AD8AEBF001B0E89 /* CarInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		1AF880ED2AD8AEBF001B0E89 /* CarCrashesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCrashesViewController.swift; sourceTree = "<group>"; };
+		1AF880F82AD8AEE9001B0E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AF880FA2AD8AEEE001B0E89 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				1AF880D02AD8AEA3001B0E89 /* AppDelegate.swift */,
-				1AF880D22AD8AEA3001B0E89 /* SceneDelegate.swift */,
-				1AF880D42AD8AEA3001B0E89 /* ViewController.swift */,
+				1AF880F82AD8AEE9001B0E89 /* SceneDelegate.swift */,
+				1AF880FA2AD8AEEE001B0E89 /* MainTabViewController.swift */,
+				1AF880E92AD8AEBF001B0E89 /* Controllers */,
 				1AF880D62AD8AEA3001B0E89 /* Main.storyboard */,
 				1AF880DC2AD8AEA5001B0E89 /* Assets.xcassets */,
 				1AF880DE2AD8AEA5001B0E89 /* LaunchScreen.storyboard */,
@@ -68,6 +77,17 @@
 				1AF880D92AD8AEA3001B0E89 /* ConfRide.xcdatamodeld */,
 			);
 			path = ConfRide;
+			sourceTree = "<group>";
+		};
+		1AF880E92AD8AEBF001B0E89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AF880EA2AD8AEBF001B0E89 /* CarInsuranceViewController.swift */,
+				1AF880EB2AD8AEBF001B0E89 /* RepairsViewController.swift */,
+				1AF880EC2AD8AEBF001B0E89 /* CarInfoViewController.swift */,
+				1AF880ED2AD8AEBF001B0E89 /* CarCrashesViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF880D52AD8AEA3001B0E89 /* ViewController.swift in Sources */,
 				1AF880D12AD8AEA3001B0E89 /* AppDelegate.swift in Sources */,
-				1AF880D32AD8AEA3001B0E89 /* SceneDelegate.swift in Sources */,
+				1AF880FB2AD8AEEE001B0E89 /* MainTabViewController.swift in Sources */,
+				1AF880F92AD8AEE9001B0E89 /* SceneDelegate.swift in Sources */,
+				1AF880F52AD8AEBF001B0E89 /* CarCrashesViewController.swift in Sources */,
+				1AF880F42AD8AEBF001B0E89 /* CarInfoViewController.swift in Sources */,
+				1AF880F32AD8AEBF001B0E89 /* RepairsViewController.swift in Sources */,
 				1AF880DB2AD8AEA3001B0E89 /* ConfRide.xcdatamodeld in Sources */,
+				1AF880F22AD8AEBF001B0E89 /* CarInsuranceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
